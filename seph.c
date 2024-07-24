@@ -18,7 +18,6 @@
 #include <stdint.h>
 
 static uint64_t e[16] =
-
 {0xb7e151628aed2a6aull, 0xbf7158809cf4f3c7ull,
  0x62e7160f38b4da56ull, 0xa784d9045190cfefull,
  0x324e7738926cfbe5ull, 0xf4bf8d8d8c31d763ull,
