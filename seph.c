@@ -42,8 +42,8 @@ uint64_t cm2(uint64_t a, uint64_t b) {
 uint64_t seph(const void* in, uint32_t seed, uint32_t length) {
     const uint64_t* in_body = (const uint64_t*)in;
 
-    size_t i = 0;
-    size_t l = length / 8;
+    uint32_t i = 0;
+    uint32_t l = length / 8;
 
     uint64_t h1 = e[0];
 
