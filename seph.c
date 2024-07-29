@@ -15,11 +15,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <inttypes.h>
-#include <stdlib.h>
 #include <stdint.h>
-#include <stdio.h>
-
 
 uint64_t seph(const void* in, uint32_t seed, uint32_t length) {
     static const uint64_t e[16] =
