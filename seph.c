@@ -1,5 +1,5 @@
 //
-// seph 0.2
+// seph 0.3
 //
 // Copyright 2024 Kyle Furlong
 //
@@ -51,5 +51,5 @@ uint64_t seph(const void* in, uint32_t seed, uint32_t length) {
     h ^= h >> 29;
     h *= e[h & 0xF];
  
-    return (h >> 64) + h;
+    return (h >> 64) ^ h;
 }
